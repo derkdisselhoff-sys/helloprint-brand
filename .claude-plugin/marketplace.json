@@ -1,0 +1,24 @@
+{
+  "name": "helloprint",
+  "owner": {
+    "name": "HelloPrint",
+    "email": "derk.disselhoff@helloprint.com",
+    "url": "https://github.com/derkdisselhoff-sys"
+  },
+  "plugins": [
+    {
+      "name": "helloprint-brand",
+      "source": "./",
+      "description": "Single source of truth for HelloPrint brand, design system, and voice across every Claude surface.",
+      "version": "0.1.0",
+      "author": {
+        "name": "HelloPrint",
+        "email": "derk.disselhoff@helloprint.com"
+      },
+      "homepage": "https://github.com/derkdisselhoff-sys/helloprint-brand",
+      "repository": "https://github.com/derkdisselhoff-sys/helloprint-brand",
+      "license": "UNLICENSED",
+      "keywords": ["helloprint", "brand", "design-system", "brand-voice", "tokens", "logo", "style-guide"]
+    }
+  ]
+}
