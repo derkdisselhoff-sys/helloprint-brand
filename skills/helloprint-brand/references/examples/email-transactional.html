@@ -1,0 +1,76 @@
+<!--
+  HelloPrint transactional email — order confirmation
+  Tokens referenced:
+  - color.brand.charmed-green       #008539
+  - color.brand.thamar-black        #022B07
+  - color.brand.snowflake           #F0F0F0
+  - color.neutral.digital-black     #191919
+  - color.neutral.digital-white     #FFFFFF
+  - font.family.primary             Inter
+  - font.scale.desktop.h2           24/32 Bold
+  - font.scale.desktop.body         14/22 Regular (email uses 16/24 — see 04-components.md)
+  - space.md / space.lg             16px / 24px
+  - radius.sm                       4px
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your HelloPrint order is confirmed</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body style="margin:0; background:#F0F0F0; font-family: 'Inter', system-ui, -apple-system, sans-serif; color:#191919;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#F0F0F0;">
+    <tr>
+      <td align="center" style="padding:24px 16px;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="max-width:600px; background:#FFFFFF;">
+          <!-- Header: wordmark + green divider -->
+          <tr>
+            <td style="padding:24px 24px 0 24px;">
+              <img src="../../../../assets/logos/helloprint-wordmark-black.svg" alt="HelloPrint" height="28" style="display:block;" />
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 24px 0 24px;">
+              <div style="height:2px; background:#008539; line-height:2px; font-size:0;">&nbsp;</div>
+            </td>
+          </tr>
+          <!-- Body -->
+          <tr>
+            <td style="padding:24px;">
+              <h1 style="margin:0 0 16px 0; font-size:24px; line-height:32px; font-weight:700; color:#191919;">
+                Your order is confirmed
+              </h1>
+              <p style="margin:0 0 16px 0; font-size:16px; line-height:24px; color:#191919;">
+                Hi Jamie — we've got it. Your 500 matte business cards are printing now and will ship tomorrow by end of day.
+              </p>
+              <p style="margin:0 0 24px 0; font-size:16px; line-height:24px; color:#191919;">
+                Order <strong>#HP-82914</strong> · €42.50 · delivery to Keizersgracht 123, Amsterdam.
+              </p>
+              <!-- Primary CTA -->
+              <table role="presentation" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td style="background:#008539; border-radius:4px;">
+                    <a href="https://helloprint.com/orders/HP-82914"
+                       style="display:inline-block; padding:12px 20px; font-size:16px; line-height:20px; font-weight:600; color:#FFFFFF; text-decoration:none;">
+                      Track your order
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Footer -->
+          <tr>
+            <td style="padding:24px; border-top:1px solid #D9D9D9; font-size:12px; line-height:18px; color:#191919;">
+              Helloprint B.V. · Schiedamse Vest 89, Rotterdam · KvK 54989837<br />
+              Questions? <a href="mailto:help@helloprint.com" style="color:#049E46; text-decoration:none;">help@helloprint.com</a> — a real person replies.<br />
+              <a href="{{UNSUB}}" style="color:#191919; text-decoration:underline;">Unsubscribe</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

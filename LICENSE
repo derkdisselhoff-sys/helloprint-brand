@@ -1,0 +1,17 @@
+Copyright (c) 2026 Helloprint B.V.
+
+All rights reserved. Proprietary — HelloPrint internal use only.
+
+The `helloprint-brand` plugin and all contents of this repository (including
+design tokens, markdown references, logo assets, and documentation) are the
+confidential property of Helloprint B.V. They may not be copied, modified,
+redistributed, sublicensed, or used outside HelloPrint or its authorised
+partners without prior written consent from the HelloPrint Brand team.
+
+Third-party content included or referenced:
+
+- Inter typeface: distributed under the SIL Open Font License 1.1 by Rasmus
+  Andersson. See `assets/fonts/OFL.txt`. Inter is loaded at runtime from
+  Google Fonts; it is not bundled in this repository.
+
+For licensing questions, contact brand@helloprint.com.

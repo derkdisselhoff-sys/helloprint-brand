@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  HelloPrint slide section divider (16:9).
+  Tokens referenced:
+  - color.brand.charmed-green   #008539  background
+  - color.neutral.digital-white #FFFFFF  wordmark + text
+  - font.family.primary         Inter
+  - font.scale.desktop.h1       32/40 Bold (scaled up for slide)
+  Use: between major sections in a deck. Pair with a corresponding content slide on white/snowflake.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" role="img" aria-label="HelloPrint section divider slide">
+  <rect width="1920" height="1080" fill="#008539"/>
+  <!-- Wordmark placeholder (monochrome white) -->
+  <g transform="translate(96, 88)" fill="#FFFFFF" aria-hidden="true">
+    <!-- simplified wordmark silhouette — actual production uses the SVG from assets/logos/helloprint-wordmark-white.svg -->
+    <text x="0" y="36" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">HelloPrint</text>
+  </g>
+  <!-- Section title -->
+  <g transform="translate(96, 440)">
+    <text x="0" y="0" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="36" font-weight="600" fill="#FFFFFF" opacity="0.85" letter-spacing="4">SECTION 03</text>
+    <text x="0" y="120" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="120" font-weight="700" fill="#FFFFFF">How we win in 2026</text>
+  </g>
+  <!-- Footer meta -->
+  <g transform="translate(96, 960)">
+    <text x="0" y="0" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="20" font-weight="400" fill="#FFFFFF" opacity="0.75">Strategy Days · April 2026</text>
+  </g>
+</svg>

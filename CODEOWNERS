@@ -1,0 +1,24 @@
+# CODEOWNERS for helloprint-brand
+#
+# The brand team owns anything user-visible (tokens, logos, voice, visual identity).
+# The AI Lead owns plugin mechanics (manifest, skill front matter, workflow docs).
+# A PR that touches both requires approval from both.
+
+# Plugin mechanics
+/plugin.json                  @helloprint/ai-lead
+/README.md                    @helloprint/ai-lead
+/CHANGELOG.md                 @helloprint/ai-lead
+/CONTRIBUTING.md              @helloprint/ai-lead
+/skills/helloprint-brand/SKILL.md  @helloprint/ai-lead
+
+# Brand canon
+/skills/helloprint-brand/references/tokens.json      @helloprint/brand
+/skills/helloprint-brand/references/01-brand.md      @helloprint/brand
+/skills/helloprint-brand/references/02-voice.md      @helloprint/brand @helloprint/content
+/skills/helloprint-brand/references/03-glossary.md   @helloprint/brand @helloprint/content
+/skills/helloprint-brand/references/04-components.md @helloprint/brand @helloprint/design-system
+/skills/helloprint-brand/references/05-logos.md      @helloprint/brand
+
+# Assets
+/assets/logos/                @helloprint/brand
+/assets/fonts/                @helloprint/brand

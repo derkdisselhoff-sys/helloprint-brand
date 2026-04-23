@@ -1,0 +1,61 @@
+<!--
+  HelloPrint landing hero — split-white-strip background variant
+  Tokens referenced:
+  - color.background.split-white-strip  white top ~60% / thamar-black bottom
+  - color.brand.charmed-green            #008539  (pill CTA fill)
+  - color.brand.thamar-black             #022B07  (bottom strip)
+  - color.neutral.digital-black          #191919  (headline)
+  - color.neutral.digital-white          #FFFFFF  (CTA text, bottom-strip text)
+  - font.scale.desktop.h1                32/40 Bold
+  - font.scale.desktop.body              14/22 Regular
+  - space.lg / space.xl                  24px / 32px
+  - radius.full                          9999px (pill CTA)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>HelloPrint — We make print easy.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --hp-charmed-green: #008539;
+      --hp-link-green:    #049E46;
+      --hp-thamar-black:  #022B07;
+      --hp-digital-black: #191919;
+      --hp-digital-white: #FFFFFF;
+      --hp-font-family:   'Inter', system-ui, -apple-system, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: var(--hp-font-family); color: var(--hp-digital-black); }
+    .hero { position: relative; min-height: 560px; background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 60%, var(--hp-thamar-black) 60%, var(--hp-thamar-black) 100%); padding: 32px; }
+    .hero__header { display: flex; align-items: center; height: 40px; }
+    .hero__wordmark { height: 28px; }
+    .hero__body { max-width: 640px; margin-top: 48px; }
+    .hero__title { font-size: 32px; line-height: 40px; font-weight: 700; margin: 0 0 24px 0; color: var(--hp-digital-black); }
+    .hero__sub   { font-size: 18px; line-height: 28px; margin: 0 0 32px 0; color: var(--hp-digital-black); }
+    .hero__cta   { display: inline-block; padding: 14px 24px; font-size: 16px; font-weight: 600; color: var(--hp-digital-white); background: var(--hp-charmed-green); border-radius: 9999px; text-decoration: none; }
+    .hero__cta:hover { background: var(--hp-link-green); }
+    .hero__strip { position: absolute; left: 0; right: 0; bottom: 0; padding: 24px 32px; color: var(--hp-digital-white); font-size: 14px; line-height: 22px; display: flex; gap: 32px; }
+    .hero__strip span { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div class="hero__header">
+      <img class="hero__wordmark" src="../../../../assets/logos/helloprint-wordmark-black.svg" alt="HelloPrint" />
+    </div>
+    <div class="hero__body">
+      <h1 class="hero__title">Print made simple.</h1>
+      <p class="hero__sub">Business cards, flyers, banners, packaging — order by 5pm, delivered tomorrow. No jargon. No surprises.</p>
+      <a class="hero__cta" href="/shop">Start an order</a>
+    </div>
+    <div class="hero__strip">
+      <span>Best price, guaranteed</span>
+      <span>100% satisfaction</span>
+      <span>Real humans on support</span>
+    </div>
+  </section>
+</body>
+</html>

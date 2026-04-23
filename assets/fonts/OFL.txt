@@ -1,0 +1,25 @@
+Inter is loaded at runtime from Google Fonts and is not bundled in this repository.
+
+The Inter typeface is distributed under the SIL Open Font License, Version 1.1,
+by Rasmus Andersson (https://rsms.me/inter/).
+
+Source project: https://github.com/rsms/inter
+License text:   https://github.com/rsms/inter/blob/master/LICENSE.txt
+Google Fonts:   https://fonts.google.com/specimen/Inter
+
+This `OFL.txt` file is included for attribution. If Inter is ever bundled in
+this repository (e.g. for fully-offline use cases), drop the .woff2 / .ttf
+files into this directory alongside the full OFL license text.
+
+─────────────────────────────────────────────────────────────────────────────
+SIL OPEN FONT LICENSE (OFL-1.1) — SUMMARY
+─────────────────────────────────────────────────────────────────────────────
+
+Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter).
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://openfontlicense.org
+
+Full license text:
+https://openfontlicense.org/open-font-license-official-text/

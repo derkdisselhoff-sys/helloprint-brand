@@ -1,0 +1,11 @@
+{
+  "name": "helloprint-brand",
+  "version": "0.1.0",
+  "description": "Single source of truth for HelloPrint brand, design system, and voice across every Claude surface — Cowork, Claude Design, Claude Code, Claude for PowerPoint, Claude for Excel.",
+  "author": "HelloPrint",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/helloprint/helloprint-brand",
+  "repository": "https://github.com/helloprint/helloprint-brand",
+  "keywords": ["helloprint", "brand", "design-system", "brand-voice", "tokens", "logo", "style-guide"],
+  "skills": ["skills/helloprint-brand"]
+}
